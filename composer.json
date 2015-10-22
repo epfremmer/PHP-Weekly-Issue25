@@ -1,0 +1,21 @@
+{
+  "name": "epfremme/issue_25",
+  "description": "The challenge this week is to implement the famous Vigenère cipher.",
+  "type": "challenge",
+  "autoload": {
+    "psr-4": { "PHPWeekly\\": "src/" }
+  },
+  "require": {
+    "react/stream": "^0.4.3",
+    "react/event-loop": "^0.4.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^5.0"
+  },
+  "authors": [
+    {
+      "name": "epfremme",
+      "email": "epfremme@nerdery.com"
+    }
+  ]
+}
