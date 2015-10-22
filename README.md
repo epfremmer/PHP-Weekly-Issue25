@@ -57,3 +57,12 @@ they have experimented with in PHP.
 1. Type input into stdin (ex. THECAKEISALIE)
 1. Debug output will display input, encrypted, & decrypted values as they pass through the application
 1. Final output is the original value after it has been fully encrypted & decrypted
+1. Type `exit` to terminate the application
+
+## Server Usage
+
+1. Run `php index.php`
+1. Run `telnet 127.0.0.1 1337` in another terminal window to connect
+1. Type input into stdin (ex. THECAKEISALIE)
+1. Encrypted output is returned
+1. Type `quit` to close the connection
